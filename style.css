@@ -181,3 +181,40 @@ nav.sticky ul li a:hover {
   object-fit: contain;
   object-position: center;
 }
+/* Food Section */
+#food {
+  background-color: #46d1e4;
+}
+
+.food-heading {
+  text-align: center;
+}
+.food-heading h1 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+}
+.food-heading p {
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+#food .food-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0 100px;
+}
+.food-content img {
+  height: 450px;
+  width: 450px;
+  padding: 20px 10px;
+  transition: 0.5s ease;
+}
+
+.food-content img:hover {
+  transform: scale(1.2);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
