@@ -218,3 +218,55 @@ nav.sticky ul li a:hover {
   transition: 0.5s ease;
   cursor: pointer;
 }
+/* Destination Section */
+#destination {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 400px;
+}
+.destination-text {
+  width: 500px;
+  justify-content: center;
+}
+.destination-text span {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.destination-text h1 {
+  font-size: 3rem;
+}
+.destination-text p {
+  font-size: 1rem;
+  margin: 5px 0px 15px;
+  text-align: justify;
+}
+
+.destination-text button {
+  padding: 12px 22px;
+  border: none;
+  background: #008665;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.destination-text button:hover {
+  background: #8d9194;
+  transition: 0.3s;
+}
+.destination-image {
+  width: 450px;
+  height: 500px;
+}
+.destination-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
