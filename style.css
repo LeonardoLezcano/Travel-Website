@@ -330,3 +330,146 @@ nav.sticky ul li a:hover {
   background: #222;
   color: #fff;
 }
+@media (max-width: 1800px) {
+  #about,
+  #destination {
+    padding: 100px 300px;
+  }
+}
+
+@media (max-width: 1700px) {
+  #about,
+  #destination {
+    padding: 100px 300px;
+  }
+}
+
+@media (max-width: 1560px) {
+  #about,
+  #destination {
+    padding: 100px 200px;
+  }
+  @media (max-width: 1360px) {
+    #about,
+    #destination {
+      padding: 100px 20px;
+    }
+  }
+  @media (max-width: 991px) {
+    nav,
+    nav.sticky {
+      padding: 10px 50px;
+      z-index: 1000;
+    }
+    .menu {
+      position: fixed;
+      top: 68px;
+      right: -100%;
+      display: block;
+      padding: 100px 50px;
+      text-align: center;
+      width: 100%;
+      height: 100vh;
+      background: #008665;
+      transition: 0.5s ease;
+      z-index: 999;
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .menu.active {
+      right: 0;
+    }
+    nav ul li a {
+      font-size: 35px;
+    }
+    .toggle {
+      width: 40px;
+      height: 40px;
+      background: url(images/menu.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 30px;
+      cursor: pointer;
+    }
+    .toggle.active {
+      background: url(images/close.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 25px;
+      cursor: pointer;
+    }
+
+    #about {
+      padding: 100px 50px;
+    }
+    .about-text span {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+    .about-text {
+      width: 350px;
+    }
+    .about-text h1 {
+      font-size: 2rem;
+    }
+    .about-image {
+      width: 350px;
+      height: 400px;
+    }
+    #food .food-content {
+      padding: 20px 0;
+    }
+    #destination {
+      padding: 100px 50px;
+    }
+    .destination-text span {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+    .destination-text h1 {
+      font-size: 1.8rem;
+    }
+    .destination-text {
+      width: 400px;
+    }
+    .destination-image img {
+      width: 350px;
+      height: 350px;
+      margin-top: 20px;
+    }
+  }
+  @media (max-width: 800px) {
+    .main-content h1 {
+      font-size: 2.5rem;
+    }
+    .main-content p {
+      font-size: 0.8rem;
+    }
+
+    #about,
+    #destination {
+      padding: 100px auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .about-text,
+    .destination-text {
+      width: 300px;
+    }
+    .about-image,
+    .destination-image {
+      padding: auto;
+    }
+
+    .destination-image img {
+      width: 100%;
+    }
+
+    #contact-box form {
+      padding: 40px;
+    }
+    .food-content img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+}
